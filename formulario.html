@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title> Fale conosco</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--Cabeçalho e script para botão de links-->
+    <header id="header">
+        <a id="logo" href="./formulario.html">Fale Conosco</a>
+        <nav id="nav">
+          <button  id="btn">Links
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./OqueAgenda2030ONU.html">O que é a Agenda 2030 da ONU</a></li>
+            <li><a href="./OqueSustentabilidade.html">O que é Sustentabilidade</a></li>
+            <li><a href="./ObjetivosMetas.html">Quais os 17 objetivos da ONU e as 169 metas da Agenda 2030 da ONU</a></li>
+          </ul>
+        </nav>
+    </header>
+    <script src="./script.js"></script>
+
+    <section class="main-section">
+
+            <div class="img-div">
+                <img src="Cell phone-pana.png" height="1000vh" width="1000vw" alt="Sustetabilidade">
+            </div>
+            <div class="main-login">
+
+                  <div class="title-login">
+                    <h2>Fale conosco</h2>
+                    <p>Para o que precisar e necessitar, estamos aqui para ajudar!</p>
+                  </div>
+
+                  <form action="mailto:marianne.cichy@docente.fieb.edu.br" id="form-fc" return>
+                    <input type="text" id="txtNome" placeholder="Nome" class="input-fc"  required> <br><br>
+                    <input type="email" id="txtEmail" placeholder="Email" class="input-fc" required><br><br>
+                    <textarea id="textarea-fc" cols="30" rows="10" placeholder="Mensagem" required="required"></textarea><br>
+                    <div id="div-btn-fc">
+                        <button type="submit" id="btn-fc" onclick="mensagem()">Enviar</button>
+                    </div>
+                </form>
+              </div>
+    </section>
+    <section class="pdf-section2">
+      <div class="pdf-container">
+     <div class="link-pdf">
+      <img src="./80942.png" alt="símbolo do pdf" style="width: 50px;">
+     <a href="Política de Privacidade.pdf" download><strong><em>Link da Política de Privacidade em .PDF</em></strong></a>
+     </div>
+    </div>
+  </section>
+
+    <section class="pdf-section2">
+      <div class="pdf-container">
+     <div class="link-pdf">
+      <img src="./80942.png" alt="símbolo do pdf" style="width: 50px;">
+      <a href="Termos de Uso.pdf" download><strong><em>Link do Termos de Uso em .PDF</em></strong></a>
+     </div>
+    </div>
+</section>
+
+      <footer>
+        <p>Grupo: 1 INF2DM - 15. Vida Terrestre</p><br>
+        <p>Anna Luiza Silva de Souza RM86372 n°02<br>
+            Eduardo Lima Mota dos Santos RM86417 n°11<br>
+            Eduardo Riberker Possidonio Moraes RM86303 n°12<br>
+            João Vitor Amorim Pinto RM86312 n°18<br>
+            José Ricardo Ferreira de Souza RM86318 n°19<br>
+            Kaue Mattos da Cruz RM86330 n°22<br>
+            Larissa da Silva Paixão RM86424 n°24<br>
+            Marco Antônio Ferreira Fonseca RM86322 n°27<br>
+            Nicolas Silva Ozório RM86427 n°32<br></p>
+    </footer>
+    
+  </body>
+</html>
